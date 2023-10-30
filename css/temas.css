@@ -1,0 +1,16 @@
+.titleTemaCtn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60vw;
+}
+
+.titleTemaCtn h3 {
+    font-size: 1.6rem;
+    color: #C5D73E;
+    text-decoration: underline;
+}
+
+.resumenCtn {
+    padding: 5px 10px;
+}

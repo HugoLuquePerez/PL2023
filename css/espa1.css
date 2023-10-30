@@ -88,10 +88,11 @@ main {
     background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.6s ease;
+    color: #2e9949;
 }
 
 .bloque1Temas {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -106,12 +107,12 @@ main {
     align-items: center;
     flex-direction: column;
     width: 20vw;
-    height: 50vh;
+    height: 28.5vh;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .temasCtn {
-    height: 50vh;
+    height: 24.8vh;
     width: 80vw;
     display: flex;
     justify-content: start;
@@ -120,7 +121,6 @@ main {
 }
 
 .contenidosCtn {
-    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,13 +128,49 @@ main {
     width: 100%;
 }
 
-.parrafoContenidosCtn {
-    padding: 8px;
+.parrafosContenidosCtn {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.parrafoContenidos {
+    margin: 0 10px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parrafosContenidosCtn:hover {
+    background-color: #cccccc;
+}
+
+.parrafoContenidos a {
+    text-decoration: none;
+    color: #2e9949;
+}
+
+.closeMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+#menuCtn {
+    border-radius: 50px;
+    border: none;
+    background-color: #e2e2e2;
+}
+
+#menuCtn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #2e9949;
 }
 
 #menu-toggle {
@@ -147,6 +183,10 @@ main {
     align-items: center;
     gap: 10px;
     border-radius: 10px;
+}
+
+#menu-toggle:hover i {
+    color: #2e9949;
 }
 
 @media screen and (max-width: 725px) {

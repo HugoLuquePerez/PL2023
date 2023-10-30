@@ -45,6 +45,20 @@ body.light-theme {
     display: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.bloque1Temas.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+.bloque1Temas.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
 :root {
     --white-bc: #fff;
     --white-bcLight: #eee;
